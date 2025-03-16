@@ -68,7 +68,7 @@ a{
 .button-business:focus, .button-business:hover {
     background-color: #404BBF;
 }
-.h2{
+.hclass-2{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -76,7 +76,7 @@ a{
     text-align: center;
     color: #2e2f42;
 }
-.h2van{
+.h-2van{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -85,7 +85,7 @@ a{
     color: #2e2f42;
     text-transform: capitalize;
 }
-.h3{
+.h-class3{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
