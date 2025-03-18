@@ -120,7 +120,7 @@ a{
     text-transform: capitalize;
     margin-bottom: 72px;
 }
-.base-h-tri{
+.h-triii{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -166,7 +166,7 @@ a{
     color: #f4f4fd;
     max-width: 264px;
 }
-/* Початок 3 частини */
+
 header .container{
     display: flex;
     justify-content: space-between;
@@ -184,7 +184,7 @@ header .container{
 .header-link{
     border-bottom: 1px solid #e7e9fc;
 }
-/* Секція 2 */
+
 .opus{
     padding-top: 120px;
     padding-bottom: 120px;
@@ -225,7 +225,7 @@ header .container{
 .comand-link img{
     width: 100%;
 }
-.comand-link .base-h-tri {
+.comand-link .h-triii {
     padding-bottom: 8px;
 }
 .div-comand{
