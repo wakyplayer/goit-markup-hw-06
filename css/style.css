@@ -1,9 +1,9 @@
 body {
     font-family: "Roboto", sans-serif;
-    color: #434455;
     background-color: #fff;
-  }
-  img{
+    color: #434455;
+}
+img{
     display: block;
 }
 h1,h2,h3,h4,h5,h6,p,ul,ol {
@@ -26,7 +26,6 @@ h1,h2,h3,h4,h5,h6,p,ul,ol {
     padding-left: 15px;
     padding-right: 15px;
 }
-  
 ul, ol {
     list-style-type: none;
 }
@@ -44,26 +43,34 @@ a{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: flex;
+    margin-right: 76px;
 }
 .logo-text{
     color: #2e2f42;
 }
 .link-header{
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-bottom: 24px;
+    padding-top: 24px;
 }
 .link-header:focus, .link-header:hover{
     color: #404BBF;
 }
 .address-link{
+    display: block;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
+    padding-bottom: 24px;
+    padding-top: 24px;
 }
 .address-link:focus, .address-link:hover {
     color: #404BBF;
@@ -85,6 +92,8 @@ a{
     margin-bottom: 48px;
 }
 .button-business{
+    display: block;
+    border: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -96,11 +105,12 @@ a{
     min-width: 169px;
     margin: 0 auto;
     border-radius: 4px;
+    
 }
 .button-business:focus, .button-business:hover {
     background-color: #404BBF;
 }
-.hclass-dva{
+.base-h-two-van{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -110,24 +120,16 @@ a{
     text-transform: capitalize;
     margin-bottom: 72px;
 }
-.h-dvavan{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    text-transform: capitalize;
-}
-.h-classtri{
+.base-h-tri{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+
 }
-.pclass{
+.base-p{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -164,7 +166,7 @@ a{
     color: #f4f4fd;
     max-width: 264px;
 }
-/* 3 */
+/* Початок 3 частини */
 header .container{
     display: flex;
     justify-content: space-between;
@@ -182,6 +184,7 @@ header .container{
 .header-link{
     border-bottom: 1px solid #e7e9fc;
 }
+/* Секція 2 */
 .opus{
     padding-top: 120px;
     padding-bottom: 120px;
@@ -193,7 +196,7 @@ header .container{
 .opus-li{
     width: calc((100% - 72px) / 4);
 }
-.hi-den {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -205,6 +208,7 @@ header .container{
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
 .comand{
     padding-top: 120px;
     padding-bottom: 120px;
@@ -228,6 +232,7 @@ header .container{
     padding: 32px 0;
     text-align: center;
 }
+
 .portfolio{
     padding-top: 120px;
     padding-bottom: 120px;
